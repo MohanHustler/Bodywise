@@ -1,0 +1,19 @@
+.as-box {
+  vertical-align: top;
+  padding: 10px;
+  .notice {
+    font-size: 12px;
+  }
+  .help-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .info {
+    font-size: 18px;
+    margin: 20px 0;
+    .sub {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "body-wise-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "deploy": "serverless"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sandstreamdev/react-swipeable-list": "^0.5.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "event-emitter": "^0.3.5",
+    "html-react-parser": "^0.13.0",
+    "mosaic-react-components": "^1.0.2",
+    "next": "9.4.4",
+    "next-pwa": "^3.0.1",
+    "next-redux-wrapper": "^6.0.1",
+    "node-sass": "^4.14.1",
+    "rc-swipeout": "^2.0.11",
+    "react": "16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-tabs": "^2.0.0",
+    "react-dom": "16.13.1",
+    "react-ga": "^3.0.0",
+    "react-icons": "^3.10.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-rating": "^2.0.5",
+    "react-redux": "^7.2.0",
+    "react-responsive-carousel": "^3.2.8",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.18.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "jest-transform-css": "^2.0.0",
+    "serverless-next.js": "1.14.0-alpha.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMocks.js",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
+    ]
+  }
+}

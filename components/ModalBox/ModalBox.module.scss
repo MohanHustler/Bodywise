@@ -1,0 +1,34 @@
+.modal-box-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  // background-color:rgb(255,255,255);
+  overflow: auto;
+  background-color: #dedede;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  .modal-box-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    font-family: "Serifa-Med", Helvetica, Arial, Sans-Serif;
+  }
+
+  .close {
+    height: 40px;
+    width: 50px;
+    font-size: 24px;
+    padding: 10px;
+    width: 20%;
+  }
+
+  .title {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+  }
+}

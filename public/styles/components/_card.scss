@@ -1,0 +1,46 @@
+.custom-card {
+  &.no-border {
+    border: 0;
+  }
+  .custom-card-image {
+    background: #ebecec;
+    border-radius: 5px;
+  }
+
+  .custom-card-title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .custom-card-arrow-container {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 10;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .custom-card-body {
+    padding: 20px;
+  }
+}
+
+.custom-card-products {
+  .custom-ratings-mobile {
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    z-index: 10;
+    background: #111d3c;
+    font-size: 14px;
+    height: 25px;
+    color: #ffffff;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

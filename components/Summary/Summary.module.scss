@@ -1,0 +1,59 @@
+.addressBox {
+  color: #353e5f;
+  font-weight: bold;
+
+  margin: 10px;
+}
+.cart-item-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  align-items: center;
+  .cart-item-name {
+    width: 500px;
+    font-size: 20px;
+    .name {
+      display: inline-block;
+      width: 375px;
+      vertical-align: middle;
+    }
+  }
+  .cart-item-price {
+    width: 150px;
+  }
+}
+.chk-out-btn-box {
+  text-align: center;
+  .btn {
+    margin: 20px;
+    width: 30%;
+    height: 80px;
+  }
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  .valuesAddress {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 40px;
+  }
+  .summary {
+    width: 58%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    vertical-align: top;
+  }
+  .scheduler {
+    width: 38%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    vertical-align: top;
+  }
+}

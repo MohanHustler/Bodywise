@@ -1,0 +1,77 @@
+.consult-container {
+  background-color: #edf2f7;
+  height: calc(100vh - 50px);
+  width: 100%;
+  font-size: 20px;
+  color: #5e93bd;
+  font-family: Avenir;
+}
+
+.btn-box {
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  border: none;
+  font-size: 14px;
+  background: none;
+  .back {
+    width: 30%;
+    border: none;
+    padding: 12px;
+    background: none;
+    color: #ccc;
+    outline: none;
+  }
+  .next {
+    width: 30%;
+    border: none;
+    padding: 12px;
+    background: none;
+    color: #666;
+    outline: none;
+  }
+}
+
+.progress-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-shadow: 1px 1px 5px 5px #666;
+  color: #fff;
+  background-color: #5e93bd;
+  padding: 5px 10px;
+  .current-step {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .botton-sec {
+    display: flex;
+    align-items: center;
+    .progress-sec {
+      width: 90%;
+      .loader {
+        width: 90%;
+        border: none;
+        background-color: #90c3f0;
+        height: 3px;
+        border-radius: 5px;
+        .filled {
+          background-color: #fff;
+          height: 3px;
+          border-radius: 5px;
+          transition: all 1s;
+        }
+      }
+    }
+    .step-number {
+      width: 10%;
+      font-size: 12px;
+      color: #90c3f0;
+    }
+  }
+}

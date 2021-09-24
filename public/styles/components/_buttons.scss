@@ -1,0 +1,100 @@
+.custom-button,
+.custom-carousel-button {
+  background: #111D3C !important;
+  color: #fff;
+  border-color: #111D3C;
+  border-radius: 5px;
+  font-weight: 900;
+
+  &:active,
+  &:hover,
+  &:focus {
+    border-color: #111D3C;
+    background: #111D3C !important;
+    color: #fff;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    background: #111D3C !important;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: #111D3C !important;
+  }
+}
+
+.custom-button-secondary {
+  background: #B98302 !important;
+  color: #fff;
+  border-color: #B98302;
+  border-radius: 5px;
+  font-weight: 900;
+
+  &:active,
+  &:hover,
+  &:focus {
+    border-color: #B98302;
+    background: #B98302 !important;
+    color: #fff;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    background: #B98302 !important;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: #B98302 !important;
+  }
+}
+
+.custom-carousel-button {
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.custom-button-gradient {
+  box-shadow: 0px 30px 50.4px 12.6px rgba(213, 213, 213, 0.36);
+  background: linear-gradient(to right, rgba(#fafb7d, 0.2), rgba(#53ea89, 0.2)) !important;
+  color: #000000;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 900;
+
+  &:active,
+  &:hover,
+  &:focus {
+    color: #000000;
+    background: linear-gradient(to right, rgba(#fafb7d, 0.2), rgba(#53ea89, 0.2)) !important;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    background: linear-gradient(to right, rgba(#fafb7d, 0.2), rgba(#53ea89, 0.2)) !important;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: linear-gradient(to right, rgba(#fafb7d, 0.2), rgba(#53ea89, 0.2)) !important;
+  }
+}

@@ -1,0 +1,260 @@
+.product-details {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  .title,
+  .price {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-family: avenir-bold;
+  }
+
+  .type {
+    font-family: avenir;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.15px;
+    color: #6c6c6c;
+    text-align: center;
+  }
+
+  .details-container {
+    background-color: #1a6c5e;
+    margin-top: 250px;
+    padding-bottom: 60px;
+    border-top-right-radius: 300px;
+    position: relative;
+    color: #fff;
+
+    .details-image {
+      margin-top: -200px;
+      min-height: 400px;
+      overflow: hidden;
+      background-color: transparent;
+
+      .image {
+        height: 400px;
+        width: 400px;
+      }
+
+      .carousel {
+        .thumbs-wrapper {
+          height: 110px;
+
+          .thumbs {
+            .thumb {
+              border: 0;
+              padding: 0px;
+              margin-right: 15px;
+
+              &.selected {
+                border: 0;
+                opacity: 0.2;
+              }
+
+              .image {
+                width: 100px;
+                height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section1-details,
+.section2-details,
+.questions-details,
+.effect-details {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  .title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: avenir-roman;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: avenir-roman;
+  }
+}
+
+
+.section1-details {
+  .details-image {
+    height: 450px;
+    background-color: #ddd;
+    width: 100%;
+  }
+}
+
+.section2-details,
+.effect-details {
+  .details-container {
+    background-color: #1a6c5e;
+    border-top-right-radius: 300px;
+    color: #fff;
+  }
+}
+
+.section2-details {
+  .details-container {
+    margin-top: 200px;
+    padding-bottom: 60px;
+
+    .details-card {
+      color: #111d3c;
+      margin-top: -200px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      font-size: 15px;
+
+      .card {
+        min-height: 400px;
+      }
+    }
+  }
+}
+
+.effect-details {
+  margin-bottom: 125px;
+
+  .details-container {
+    padding-top: 45px;
+
+    .details-customer-card {
+      margin-bottom: -145px;
+      color: #1a6c5e;
+
+      .card {
+        min-height: 250px;
+      }
+    }
+  }
+}
+
+.section1-mobile-details,
+.section2-mobile-details,
+.questions-mobile-details,
+.effect-mobile-details {
+  padding-top: 20px;
+  position: relative;
+  background-color: #effffc;
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: avenir-roman;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: avenir-roman;
+  }
+}
+
+.section1-mobile-details {
+  .details-image {
+    height: 400px;
+    background-color: #ddd;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+.section2-mobile-details,
+.product-mobile-details,
+.effect-mobile-details {
+  background-color: #d6f0eb;
+
+  .details-container {
+    background-color: #1a6c5e;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top-right-radius: 100px;
+    position: relative;
+    color: #fff;
+  }
+}
+
+// .product-mobile-details {
+//   .details-container {
+//     padding-top: 100px;
+//     transform: translateY(-80px);
+//     z-index: -1;
+//   }
+// }
+
+.product-mobile-details {
+
+  .details-image {
+    height: 350px;
+    background-color: #d6f0eb;
+    width: 100%;
+
+    .image {
+      height: 350px;
+      width: 100%;
+    }
+  }
+
+  .type {
+    color: #aee2d8;
+    font-size: 24px;
+    margin-top: 15px;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 24px;
+    font-family: avenir-bold;
+  }
+
+  .price {
+    position: absolute;
+    top: -60px;
+    left: 15px;
+    font-size: 14px;
+    transform: translateY(50%);
+    background: #000;
+    color: #fff;
+    width: 90px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: avenir-bold;
+  }
+}
+
+.effect-mobile-details {
+  margin-bottom: 125px;
+
+  .details-container {
+    .details-customer-card {
+      margin-bottom: -145px;
+      color: #1a6c5e;
+
+      .card {
+        min-height: 250px;
+      }
+    }
+  }
+}
+
+.questions-mobile-details {
+  padding-bottom: 40px;
+}

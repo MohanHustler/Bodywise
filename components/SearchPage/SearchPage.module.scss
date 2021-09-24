@@ -1,0 +1,98 @@
+.inputBox {
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 22px;
+  color: #666;
+  border: none;
+  border-bottom: 1px solid #2d6c5f;
+}
+.inputBox:focus {
+  outline: none;
+}
+
+.div1 {
+  padding-top: 10px;
+}
+.div2 {
+  border-bottom: 5px solid rgb(200, 200, 200);
+  padding: 10px;
+  position: relative;
+  height: 100px;
+}
+.productImage {
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-right: 5px;
+}
+.images {
+  width: 100%;
+}
+.productInfo {
+  float: left;
+  width: 60%;
+  margin-left: 5px;
+}
+.buy-btn {
+  .addButton {
+    border: 1px solid #ddd;
+    background-color: #2d6c5f;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.search-def {
+  height: 100px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+  padding: 10px;
+}
+.scroll-content {
+  height: 75vh;
+  overflow: scroll;
+}
+.items-box {
+  margin: 10px 5px;
+  .item {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    border: 1px solid #c8e6e0;
+    padding: 5px;
+    border-radius: 5px;
+    .left {
+      width: 30%;
+      height: 120px;
+      padding: 3px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .right {
+      width: 70%;
+      height: 120px;
+      padding: 0 15px;
+      .name {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Serifa-Med, Helvetica, Arial, Sans-Serif;
+      }
+      .desc {
+        margin: 10px 0;
+        font-size: 14px;
+      }
+      .buy-price-box {
+        justify-content: space-between;
+        .price {
+          padding: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

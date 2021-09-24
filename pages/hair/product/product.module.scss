@@ -1,0 +1,338 @@
+.prod-container {
+  width: 100%;
+  padding-bottom: 100px;
+  .section {
+    padding: 10px;
+  }
+  .section-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Serifa-Med";
+    padding: 10px 0;
+  }
+  .section-sub-text {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Avenir-Roman";
+  }
+  .pc-overview {
+    width: 100%;
+    height: 720px;
+    background-color: #aee2d8;
+    .pc-banner {
+      width: 100%;
+      height: 400px;
+      img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+      }
+    }
+    .pc-o-review-box {
+      height: 60px;
+      border-top: 2px solid #aee2d8;
+      border-bottom: 2px solid #aee2d8;
+      margin: 20px 0;
+      display: flex;
+      justify-content: space-around;
+      color: #fff;
+      padding: 5px;
+      .review-section {
+        min-width: 20%;
+        text-align: center;
+        font-size: 14px;
+        margin: 5px;
+        .bot {
+          font-size: 12px;
+        }
+      }
+    }
+    .pco-detail {
+      width: 100%;
+      min-height: 400px;
+      transform: translateY(-80px);
+      background-color: #2d6c5f;
+      border-radius: 0 80px 0 0;
+      padding: 10px 15px;
+      .pc-o-name {
+        font-size: 24px;
+      }
+      .emp {
+        color: #fff;
+        font-size: 18px;
+      }
+      .text {
+        color: #fff;
+        font-size: 14px;
+        margin: 3px 0;
+      }
+      .pc-o-price {
+        background-color: #000;
+        padding: 10px 20px;
+        transform: translateY(-25px);
+        display: inline-block;
+        color: #fff;
+      }
+      .pc-o-category {
+        color: #aee2d8;
+        font-size: 18px;
+      }
+      .pc-o-name {
+        color: #fff;
+      }
+    }
+  }
+  .sec {
+    color: #444;
+    .title {
+      font-size: 24px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .sub-text {
+      font-size: 18px;
+      text-align: center;
+    }
+    .banner {
+      width: 100%;
+      height: 300px;
+      margin: 20px 0 0 0;
+      img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+    }
+  }
+  .about-prod-doc {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background-color: #2d6c5f;
+    border-radius: 0 100px 0 0;
+    padding: 10px 15px;
+    margin: 20px 0;
+    .emp-s {
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .text {
+      color: #fff;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    .liner-item {
+      margin: 10px;
+    }
+    .ib-em {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+    }
+    .ib-text {
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+    }
+    .fwb {
+      .white-box {
+        background-color: #fff;
+        margin: 10px 0;
+        display: flex;
+        .title {
+          font-size: 14px;
+          font-weight: bold;
+          border: 1px solid #ddd;
+          padding: 5px 10px;
+        }
+        .value {
+          font-size: 14px;
+          padding: 5px 10px;
+          border: 1px solid #ddd;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  .icon-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px;
+    flex-wrap: wrap;
+    .item-box {
+      width: 100px;
+      height: 100px;
+      justify-content: space-around;
+      margin: 10px auto;
+      .icon {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 24px;
+        color: #2d6c5f;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+      .label {
+        font-size: 14px;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+  .li-box {
+    margin: 25px 0px;
+    .info-box {
+      margin: 0 auto;
+      text-align: center;
+      .item-box {
+        width: 100px;
+        height: 100px;
+        justify-content: space-around;
+        margin: auto;
+        .icon {
+          width: 60px;
+          height: 60px;
+          padding: 10px;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 24px;
+          color: #2d6c5f;
+          background-color: #fff;
+          margin: 0 auto;
+        }
+        .label {
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
+          padding: 10px 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.prod-buy-btn {
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  background-color: #2d6c5f;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 7px 5px 10px #222;
+}
+.reviews {
+  padding: 30px 0;
+}
+.regime-section {
+  .regime-header {
+    width: 100%;
+    background-color: #2d6c5f;
+    border-radius: 0 80px 0 0;
+    padding: 15px;
+    color: #eee;
+  }
+  .product {
+    .regime-data {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      .left {
+        width: 21%;
+        height: 55px;
+        border-right: 2px solid #000;
+        padding: 15px 3px;
+        font-weight: bold;
+      }
+      .right {
+        width: 79%;
+        height: 80px;
+        padding: 15px 3px;
+      }
+    }
+  }
+  .steps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    height: 80px;
+    .sb--stepper-cont {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      position: relative;
+      .bg {
+        position: absolute;
+        fill: #67cdbc;
+        height: 100%;
+        width: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .step-den {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        z-index: 9;
+        font-size: 18px;
+      }
+      .title {
+        margin: 5px 0;
+        color: #000;
+      }
+      .line {
+        position: absolute;
+        width: 79%;
+        height: 2px;
+        background-color: #000;
+        top: 50%;
+        left: 60%;
+        z-index: 8;
+      }
+      &:last-child .line {
+        display: none;
+      }
+
+      .active {
+        border-color: #666;
+      }
+      .step-den.complete {
+        background-color: #888;
+        color: #fff;
+      }
+      .step-den.active {
+        background-color: #666;
+        color: #fff;
+      }
+      .complete {
+        border-color: #888;
+      }
+      .line.complete {
+        background-color: #888;
+      }
+    }
+  }
+}

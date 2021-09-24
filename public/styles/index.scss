@@ -1,0 +1,11 @@
+@import './utils/index',
+        './utils/margin',
+        './utils/padding';
+
+@import './pages/home',
+        './pages/productPage';
+
+@import './components/buttons',
+        './components/card',
+        './components/header',
+        './components/footer';

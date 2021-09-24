@@ -1,0 +1,21 @@
+.quantity-info-box {
+  width: 110px;
+  text-align: center;
+  .qib--quantity-inp {
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 0;
+  }
+  .btn {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 0em;
+    border-radius: 0;
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #ddd;
+  }
+}

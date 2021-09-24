@@ -1,0 +1,17 @@
+{
+  "background_color": "purple",
+  "description": "Be BodyWise PWA app",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/DummyLogo/ios/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Be BodyWise",
+  "short_name": "BeBodyWise",
+  "start_url": "/",
+  "theme_color": "#FFFFFF",
+  "orientation": "portrait"
+}

@@ -1,0 +1,21 @@
+.text {
+  display: block;
+  font-size: 20px;
+  color: #5e93bd;
+  padding: 20px;
+  max-height: 470px;
+  overflow: scroll;
+  border-bottom: 1px solid #ddd;
+  select {
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    padding: 3px;
+    color: #2a658d;
+  }
+  select::-ms-expand {
+    display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+  }
+}

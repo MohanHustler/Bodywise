@@ -1,0 +1,21 @@
+.input-consult {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  outline: blue($color: #000000);
+}
+.age {
+  width: 60px;
+}
+.name {
+  width: 240px;
+}
+.feet,
+.inches {
+  width: 43px;
+}
+.weight {
+  width: 60px;
+}

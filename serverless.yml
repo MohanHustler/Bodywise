@@ -1,0 +1,6 @@
+bodyWiseNextApp:
+  component: "serverless-next.js@1.9.5"
+
+custom:
+  serverless-nextjs:
+    cloudFront: true

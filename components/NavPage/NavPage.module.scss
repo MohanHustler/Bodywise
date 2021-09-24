@@ -1,0 +1,36 @@
+.menu-box {
+  display: flex;
+  flex-wrap: wrap;
+  .menu-item {
+    width: 50%;
+    height: 95px;
+    text-align: center;
+    color: #666;
+    .icon {
+      font-size: 24px;
+    }
+    .label {
+      font-size: 14px;
+    }
+  }
+  .nav-btn {
+    width: 70%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    text-align: center;
+    .icon {
+      font-size: 24px;
+      display: inline-block;
+      margin-right: 10px;
+      color: #666;
+    }
+  }
+  .logout-btn {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    color: #ea7474;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+}

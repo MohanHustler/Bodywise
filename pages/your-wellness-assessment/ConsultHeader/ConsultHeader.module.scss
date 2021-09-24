@@ -1,0 +1,26 @@
+.c-header-box {
+  width: 100%;
+  overflow: scroll;
+  .c-ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    padding: 5px;
+    margin: 0;
+    .item {
+      min-width: 100px;
+      border-bottom: 2px solid #ddd;
+      padding: 5px;
+      margin: 0 5px;
+      text-transform: capitalize;
+    }
+    .active {
+      border-bottom: 2px solid #5e93bd;
+    }
+    .done {
+      border-bottom: 2px solid #2a658d;
+    }
+  }
+}

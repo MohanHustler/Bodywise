@@ -1,0 +1,26 @@
+@font-face {
+  font-family: avenir;
+  src: url("./../public/fonts/avnir/AvenirLTStd-Book.otf") format("opentype");
+  /*font-weight: normal;*/
+  font-display: swap;
+}
+
+@font-face {
+  font-family: avenir-bold;
+  src: url("./../public/fonts/avnir/AvenirLTStd-Black.otf") format("opentype");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: avenir-medium;
+  src: url("./../public/fonts/avnir/AvenirLTStd-Medium.otf") format("opentype");
+  font-weight: medium;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: avenir-roman;
+  src: url("./../public/fonts/avnir/AvenirLTStd-Roman.otf") format("opentype");
+  font-display: swap;
+}

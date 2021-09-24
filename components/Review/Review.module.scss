@@ -1,0 +1,149 @@
+.total-reviews {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  .number {
+    width: 20%;
+    font-size: 34px;
+    color: #222;
+    vertical-align: top;
+    text-align: center;
+    font-weight: bold;
+  }
+  .star {
+    width: 40%;
+    font-size: 24px;
+  }
+  .text {
+    width: 40%;
+    font-size: 14px;
+  }
+}
+
+.division {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  .item {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    .star {
+      width: 40%;
+      font-size: 24px;
+    }
+    .loader {
+      width: 30%;
+      border: 1px solid #ddd;
+      height: 15px;
+      .filled {
+        background-color: #f7b432;
+        box-shadow: 0px 0px 2px 0px #000;
+        height: 15px;
+      }
+    }
+    .text {
+      width: 10%;
+    }
+  }
+}
+.recommendation-percentage {
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+  color: #444;
+  .percentage {
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+  }
+}
+
+.review-list {
+  margin: 10px;
+  .title {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+  }
+  .review-box {
+    margin: 50px 0;
+    .user-section {
+      .profile-pic {
+        padding: 10px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        border: 1px solid #ddd;
+        background-color: #ddd;
+        font-size: 24px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .details {
+        display: inline-block;
+        width: 70%;
+        vertical-align: top;
+        .ud {
+          display: inline-flex;
+          width: 100%;
+          vertical-align: top;
+          flex-wrap: wrap;
+          .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 10px;
+            width: 40%;
+            vertical-align: top;
+          }
+          .ver-stat {
+            color: green;
+            width: 30%;
+            font-size: 12px;
+            margin-right: 5px;
+            text-align: center;
+          }
+          .date {
+            font-size: 12px;
+            color: #666;
+            width: 20%;
+          }
+        }
+
+        .star {
+          padding: 0 10px;
+        }
+      }
+    }
+    .recomm-text {
+      font-size: 12px;
+      margin: 15px 5px;
+      .icon {
+        font-size: 14px;
+        display: inline-block;
+        margin: 0 10px;
+        color: green;
+      }
+    }
+    .user-review {
+      margin: 10px 0;
+      .title {
+        font-size: 18px;
+        color: #222;
+        margin: 5px 0;
+      }
+      .text {
+        font-size: 14px;
+        color: #222;
+        margin: 5px;
+      }
+    }
+    .item {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}

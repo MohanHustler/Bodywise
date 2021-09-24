@@ -1,0 +1,40 @@
+.acc-box {
+  margin-bottom: 15px;
+
+  .acc-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    font-family: avenir-roman;
+    border-radius: 5px;
+
+    .title {
+      width: 90%;
+      font-size: 18px;
+      padding-left: 10px;
+      font-family: avenir-roman;
+      color: #000000;
+    }
+  }
+
+  .acc-body {
+    margin: 10px 0;
+    color: #ffffff;
+    padding: 0 10px;
+
+    .acc-box-head {
+      font-size: 18px;
+      margin: 20px 0;
+      font-family: avenir-bold;
+      color: #ffffff;
+
+    }
+
+    .acc-box-content {
+      font-size: 14px;
+      font-family: avenir-roman;
+    }
+  }
+}

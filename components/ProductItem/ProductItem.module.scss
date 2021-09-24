@@ -1,0 +1,42 @@
+.pi-container {
+  padding: 15px 10px;
+  .img-bx {
+    height: 250px;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .data-bx {
+    background-image: linear-gradient(to top left, #fbe29d, #adfbd5);
+    padding: 10px;
+    .label {
+      font-size: 24px;
+      color: #222;
+      margin-bottom: 5px;
+    }
+    .text {
+      font-size: 14px;
+      color: #666;
+    }
+  }
+  .action-bx {
+    background-color: #ddd;
+    button {
+      width: 50%;
+      padding: 15px;
+      border: 1px solid #ddd;
+      font-family: Avenir;
+      font-size: 16px;
+    }
+    .btn-regime {
+      background-color: #000;
+      color: #fff;
+    }
+    .btn-buy {
+      background-color: #1a6c5e;
+      color: #fff;
+    }
+  }
+}

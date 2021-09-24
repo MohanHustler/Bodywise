@@ -1,0 +1,14 @@
+.cb-container {
+  .checkLabel {
+    font-size: 20px;
+    color: #5e93bd;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    .radio {
+      border: 1px solid #ddd;
+      margin: 10px;
+    }
+  }
+}

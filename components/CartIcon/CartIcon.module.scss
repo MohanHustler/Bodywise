@@ -1,0 +1,18 @@
+.cart-icon-cont {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: 10px;
+  .val {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    background-color: #6363f5;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 5px;
+  }
+}
